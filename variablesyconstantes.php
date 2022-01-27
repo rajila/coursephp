@@ -7,6 +7,20 @@
     $soltero = true; # variable de tipo booleano
 
     $frutas = array("Manzana", "Pera", "Naranja"); # variable de tipo array
+    $frutas[] = "Sandia"; # agregar un elemento al final al array
+
+    $poblacion = array(
+        "Spain" => 3987,
+        "Ecuador" => 45564,
+        "Brasil" => 450934
+    ); # variable de tipo array asociativo (clave => valor)
+    $poblacion["Argentina"] = 47896; # agregar un elemento al final al array asociativo
+    $poblacion[] = 17098; # agregar un elemento al final al array asociativo. El indice inicia desde 0
+    $poblacion["Chile"] = 8796; # agregar un elemento al final al array asociativo
+    $poblacion[] = 77; # agregar un elemento al final al array asociativo. El indice automaticamente se incrementa en 1 del ultimo elemento del array con clave de tipo entero.
+    $poblacion[3] = 567; # agregar un elemento al final al array asociativo. Por pruebas asignamos un indice a mano de valor 3
+    $poblacion[] = 988; # agregar un elemento al final al array asociativo. El indice automaticamente se incrementa en 1 del ultimo elemento del array con clave de tipo entero.
+    
     define("PI", 3.14); # variable de tipo constante
     define("VELOCIDAD_LUZ", 3E8); # variable de tipo constante
 
@@ -29,6 +43,10 @@
 
     print "<b>Frutas: </b> <br>";
     var_dump($frutas);
+    echo "<br><br>";
+
+    print "<b>Poblacion: </b> <br>";
+    var_dump($poblacion);
     echo "<br><br>";
 
     print "<b>PI: </b>" . PI . "<br>";
