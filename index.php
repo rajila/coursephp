@@ -12,6 +12,9 @@
             <li>
                 <a href="variablesyconstantes.php">Variables y Constantes</a>
             </li>
+            <li>
+                <a href="operadores.php">Operadores</a>
+            </li>
         </ul>
     </nav>
     <?php
