@@ -18,6 +18,9 @@
             <li>
                 <a href="estructurascondicionales.php">Estructuras condicionales</a>
             </li>
+            <li>
+                <a href="estructurasiterativas.php">Estructuras iterativas</a>
+            </li>
         </ul>
     </nav>
     <?php
