@@ -15,6 +15,9 @@
             <li>
                 <a href="operadores.php">Operadores</a>
             </li>
+            <li>
+                <a href="estructurascondicionales.php">Estructuras condicionales</a>
+            </li>
         </ul>
     </nav>
     <?php
