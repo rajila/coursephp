@@ -37,6 +37,9 @@
                 <a href="validaciones.php">Validaciones</a>
             </li>
             <li>
+                <a href="escapadocaracteres.php">Escapado caracteres</a>
+            </li>
+            <li>
                 Sesion
                 <ul>
                     <li><a href="crearsesion.php">Crear sesion</a></li>
@@ -46,6 +49,14 @@
             </li>
             <li>
                 Cookies
+                <ul>
+                    <li><a href="crearcookie.php">Crear cookie</a></li>
+                    <li><a href="editcookie.php">Editar cookie</a></li>
+                    <li><a href="deletecookie.php">Eliminar cookie</a></li>
+                </ul>
+            </li>
+            <li>
+                SQL
                 <ul>
                     <li><a href="crearcookie.php">Crear cookie</a></li>
                     <li><a href="editcookie.php">Editar cookie</a></li>
