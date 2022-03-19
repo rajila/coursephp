@@ -56,12 +56,7 @@
                 </ul>
             </li>
             <li>
-                SQL
-                <ul>
-                    <li><a href="crearcookie.php">Crear cookie</a></li>
-                    <li><a href="editcookie.php">Editar cookie</a></li>
-                    <li><a href="deletecookie.php">Eliminar cookie</a></li>
-                </ul>
+                <a href="crudcliente.php">CRUD Cliente MySql</a>
             </li>
         </ul>
     </nav>
