@@ -58,6 +58,9 @@
             <li>
                 <a href="crudcliente.php">CRUD Cliente MySql</a>
             </li>
+            <li>
+                <a href="files.php">Archivos</a>
+            </li>
         </ul>
     </nav>
     <?php
